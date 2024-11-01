@@ -1,0 +1,113 @@
+.slider {
+    height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.slider__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.slider__title h2 {
+    padding: 0;
+    margin: 0;
+    max-width: 447px;
+    font-size: 35px;
+    line-height: 143%;
+    color: #0b132a;
+}
+
+.slider__title p {
+    max-width: 555px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #4f5665;
+}
+
+.cards {
+    height: 250px;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__user-title {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.cards__user-title-text h2 {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 167%;
+    color: #0b132a;
+}
+
+.cards__user-title-text p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4f5665;
+}
+
+.cards__user-title-grade {
+    display: flex;
+    align-items: center;
+}
+
+.cards__user-title-grade-text h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 187%;
+    color: #0b132a;
+}
+
+.cards__review p {
+    max-width: 340px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #0b132a;
+}
+
+.cards__user-title-grade {
+    display: flex;
+    gap: 10px;
+}
+
+.cards__inner {
+    height: 400px;
+}
+
+.slider__container-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__container {
+    max-width: 1420px;
+}

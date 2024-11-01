@@ -1,0 +1,42 @@
+.provide {
+    padding: 40px 0 141px 0;
+    background-color: #fff;
+}
+
+.provide__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.provide__text-content-title h2 {
+    max-width: 383px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 143%;
+    color: #0b132a;
+}
+
+.provide__text-content-title p {
+    max-width: 427px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #4f5665;
+}
+
+.provide__text-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #4f5665;
+    list-style: none;
+}
+
+.provide__text-content-list-box {
+    display: flex;
+    gap: 5px;
+}

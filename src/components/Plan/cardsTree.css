@@ -1,0 +1,90 @@
+.plan__cardstree-inner {
+    width: 330px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.plan__cardstree-inner:hover {
+    border: 2px solid #f53838;
+}
+
+.plan__cardstree-text {
+    margin-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan__cardstree-text-title h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #0b132a;
+}
+
+.plan__cardstree-content-list-box {
+    display: flex;
+    gap: 20px;
+}
+
+.plan__cardstree-content-list-box li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #4f5665;
+}
+
+.plan__cardstree-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.plan__cardstree-btn h4 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #0b132a;
+}
+
+.plan__cardstree-btn button {
+    font-family: 'rub';
+    padding: 13px 63px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f53838;
+    background-color: transparent;
+    border: 2px solid #f53838;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.plan__cardstree-btn-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan__cardstree-btn-text p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #4f5665;
+}
+
+.plan__cardstree-btn button:hover {
+    color: #fff;
+    background: #f53838;
+    box-shadow: 0 10px 30px 5px rgba(245, 56, 56, 0.35);
+}

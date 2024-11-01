@@ -1,0 +1,94 @@
+.footer {
+    background-color: rgb(240, 240, 240);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 0 100px 0;
+}
+
+.footer__contact {
+    width: 340px;
+}
+
+.footer__contact-logo {
+    padding-bottom: 20px;
+}
+
+.footer__contact-logo a {
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #0B132A;
+    text-decoration: none;
+}
+
+.footer__contact-logo a p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #0b132a;
+}
+
+.footer__contact-logo a p span {
+    font-weight: 700;
+}
+
+.footer__contact-text-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__contact-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #4f5665;
+}
+
+.footer__contact-text p span {
+    font-weight: 500;
+}
+
+.footer__contact-img-circle img {
+    background-color: red;
+}
+
+.footer__inf {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link-title h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #0b132a;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__link-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__link-list ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    list-style-type: none;
+}
+
+.footer__link-list ul li a {
+    text-decoration: none;
+    color: #4f5665;
+}

@@ -1,0 +1,50 @@
+.network {
+    padding: 0 0 20px 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.network__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 0px 0 140px;
+}
+
+.network__text h2 {
+    padding: 0;
+    margin: 0;
+    max-width: 383px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 143%;
+    color: #0b132a;
+}
+
+.network__text p {
+    padding: 0;
+    margin: 0;
+    max-width: 555px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #4f5665;
+}
+
+.network__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.network__advertising {
+    height: 208px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

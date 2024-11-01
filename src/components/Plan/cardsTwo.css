@@ -1,0 +1,98 @@
+.plan__cardstwo-inner {
+    width: 330px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: .2s;
+}
+
+.plan__cardstwo-inner:hover {
+    border: 2px solid #f53838;
+}
+
+.plan__cardstwo-text {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan__cardstwo-text-title h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #0b132a;
+}
+
+.plan__cardstwo-content-list-box {
+    display: flex;
+    gap: 20px;
+}
+
+.plan__cardstwo-content-list-box li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #4f5665;
+}
+
+.plan__cardstwo-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.plan__cardstwo-btn h4 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #0b132a;
+}
+
+.plan__cardstwo-btn p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #0b132a;
+}
+
+.plan__cardstwo-btn button {
+    font-family: 'rub';
+    padding: 13px 63px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f53838;
+    background-color: transparent;
+    border: 2px solid #f53838;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.plan__cardstwo-btn-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan__cardstwo-btn-text p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #4f5665;
+}
+
+.plan__cardstwo-btn button:hover {
+    color: #fff;
+    background: #f53838;
+    box-shadow: 0 10px 30px 5px rgba(245, 56, 56, 0.35);
+
+}
